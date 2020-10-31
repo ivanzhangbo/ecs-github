@@ -12,3 +12,4 @@ class TestApp(unittest.TestCase):
         self.assertEqual(random_string_reversed, returnBackwardsString(random_string))
 
 if __name__ == "__main__":
+    unittest.main()
